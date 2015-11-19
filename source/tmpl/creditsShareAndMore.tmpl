@@ -1,27 +1,26 @@
 <div class="ns_creditsHolder">
 	<div class="ns_creditsLineThin"></div>
-	<h2>Credits</h2>
-	<p>Well done to these people</p>
-	<h2 class="ns_shareThisStoryTitle">Share this story <a href="http://www.bbc.co.uk/help/web/sharing.shtml">about sharing</a></h2>
-	<a href="mailto:?subject=<!-- urlencodeme-start -->email subject<!-- urlencodeme-end -->&amp;body=<!-- urlencodeme-start -->email body<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareEmailIcon">
-		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/email.png" alt="email share">
+	<h2>{{= credits_title }}</h2>
+	<p>{{= credits_para }}</p>
+	<h2 class="ns_shareThisStoryTitle">{{= share_title }} <a href="{{= share_disclaimer_url }}">{{= share_disclaimer_title }}</a></h2>
+	<a href="mailto:?subject=<!-- urlencodeme-start -->{{= email_subject }}<!-- urlencodeme-end -->&amp;body=<!-- urlencodeme-start -->{{= email_body }}<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareEmailIcon">
+		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/email.png" alt="{{= share_email }}">
 	</a>
-	<a href="http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri=<!-- urlencodeme-start -->facebook share url<!-- urlencodeme-end -->&amp;link=<!-- urlencodeme-start -->facebook share url<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareFacebookIcon">
-		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/facebook.png" alt="facebook share">
+	<a href="http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri=<!-- urlencodeme-start -->{{= facebook_share_url }}<!-- urlencodeme-end -->&amp;link=<!-- urlencodeme-start -->{{= facebook_share_url }}<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareFacebookIcon">
+		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/facebook.png" alt="{{= share_facebook }}">
 	</a>
-	<a href="https://twitter.com/intent/tweet?text=<!-- urlencodeme-start -->twitter message<!-- urlencodeme-end -->&amp;url=<!-- urlencodeme-start -->twitter share url<!-- urlencodeme-end -->" data-social-url="https://twitter.com/intent/tweet?text=<!-- urlencodeme-start -->twitter message<!-- urlencodeme-end -->&amp;url=" data-target-url="<!-- urlencodeme-start -->twitter share url<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareTwitterIcon">
-		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/twitter.png" alt="twitter share">
+	<a href="https://twitter.com/intent/tweet?text=<!-- urlencodeme-start -->{{= twitter_message }}<!-- urlencodeme-end -->&amp;url=<!-- urlencodeme-start -->{{= twitter_share_url }}<!-- urlencodeme-end -->" data-social-url="https://twitter.com/intent/tweet?text=<!-- urlencodeme-start -->{{= twitter_message }}<!-- urlencodeme-end -->&amp;url=" data-target-url="<!-- urlencodeme-start -->{{= twitter_share_url }}<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareTwitterIcon">
+		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/twitter.png" alt="{{= share_twitter }}">
 	</a>
-	<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<!-- urlencodeme-start -->linked in share url<!-- urlencodeme-end -->&amp;title=<!-- urlencodeme-start -->linked in title<!-- urlencodeme-end -->&amp;summary=<!-- urlencodeme-start -->linked in summary<!-- urlencodeme-end -->&amp;source=<!-- urlencodeme-start -->BBC News<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareLinkedInIcon">
-		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/linkedin.png" alt="linked in share">
+	<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<!-- urlencodeme-start -->{{= linkedin_share_url }}<!-- urlencodeme-end -->&amp;title=<!-- urlencodeme-start -->{{= linkedin_title }}<!-- urlencodeme-end -->&amp;summary=<!-- urlencodeme-start -->{{= linkedin_summary }}<!-- urlencodeme-end -->&amp;source=<!-- urlencodeme-start -->BBC News<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareLinkedInIcon">
+		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/linkedin.png" alt="{{= share_linkedin }}">
 	</a>
 	<div class="ns_onwardJourneys">
 		<div class="ns_creditsLineThick"></div>
-		<h2>More on this story</h2>
+		<h2>{{= onward_journey_title }}</h2>
 		<div class="ns_creditsLineThin"></div>
-		<a href="">related link 1</a>
-		<a href="">related link 2</a>
-		<a href="">related link 3</a>
-		<span>The BBC is not responsible for the content of external Internet sites</span>
+		
+		<div class="100_women_logo"></div>
+		<a href="{{= onward_journey_link_url_1 }}">{{= onward_journey_link_text_1 }}</a>
 	</div>
 </div>
