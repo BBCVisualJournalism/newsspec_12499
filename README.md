@@ -24,7 +24,7 @@ grunt translate
 
 ## Kelvin scaffold
 
-This full frame project was built using the Kelvin scaffold v0.1.0
+This full frame project was built using the Kelvin scaffold v0.1.1
 
 ## License
 Copyright (c) 2014 BBC
