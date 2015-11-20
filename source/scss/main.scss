@@ -1,7 +1,12 @@
 @import "news_special/defaults";
-// @import "app";
+@import "colors";
+@import "app";
+
+@import "intro";
 @import "creditsShareAndMore";
 
-.ns_rtl {
-	direction: rtl;
+.ns_rtl { direction: rtl; }
+.main {
+    font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+    color: $mine_shaft;
 }

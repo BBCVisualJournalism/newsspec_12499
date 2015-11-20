@@ -1,0 +1,71 @@
+.intro {
+    background-color: $morning_glory;
+    position: relative;
+}
+
+.intro_title {
+    font-size: 3.2em;
+    line-height: 36px;
+    padding: 34px 8px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro_title_red {
+    font-style: normal;
+    color: #ec2565;
+}
+
+.intro_paragraph {
+    font-size: 1.6em;
+    text-align: center;
+    margin: 0 16px;
+}
+
+.scrollbutton {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    top: 280px;
+    z-index: 10;
+}
+
+.blobs {
+    position: relative;
+    height: 468px;
+    overflow: hidden;
+}
+
+.blob {
+    position: absolute;
+}
+
+.blob-dishes {
+    width: 192px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.blob-silence {
+    width: 209px;
+    top: 31px;
+    right: -16px;
+    z-index: 9;
+}
+
+.blob-books {
+    width: 223px;
+    top: 162px;
+    left: -10px;
+    z-index: 8;
+}
+
+.blob-needle {
+    width: 212px;
+    top: 230px;
+    right: -22px;
+    z-index: 7;
+}
