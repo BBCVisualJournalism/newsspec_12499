@@ -15,11 +15,11 @@
 }
 
 .section_cover-venezuela {
-    background-color: $morning_glory;
     background-repeat: no-repeat;
     background-image: url(/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_cover.png);
     background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_cover.svg);
-    height: 160px;
+    background-position: bottom right;
+    background-size: auto 160px;
 }
 
 .section_cover-syria {
@@ -50,4 +50,11 @@
     background-repeat: no-repeat;
     background-image: url(/news/special/2015/newsspec_12499/content/english/img/congo/congo_cover.png);
     background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/congo/congo_cover.svg);
+}
+
+@include respondMinMax(768px, false) {
+    .section_cover-venezuela {
+        background-size: auto 274px;
+        background-position: bottom right 66px;
+    }
 }

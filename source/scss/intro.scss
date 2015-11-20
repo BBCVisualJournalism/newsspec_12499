@@ -35,7 +35,7 @@
 
 .blobs {
     position: relative;
-    height: 468px;
+    height: 620px;
     overflow: hidden;
 }
 
@@ -89,6 +89,10 @@
         height: 44px;
         margin-left: -22px;
         top: 600px;
+    }
+
+    .blobs {
+        height: 574px;
     }
 
     .blob-dishes {
