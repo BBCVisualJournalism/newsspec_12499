@@ -1,0 +1,53 @@
+.section_cover {
+    height: 200px;
+    background-position: bottom right;
+    background-size: auto 160px;
+}
+
+.section_cover-a {
+    background-color: $wafer;
+    border-bottom: solid 2px $morning_glory;
+}
+
+.section_cover-b {
+    background-color: $powder_blue;
+    border-bottom: solid 2px $amaranth;
+}
+
+.section_cover-venezuela {
+    background-color: $morning_glory;
+    background-repeat: no-repeat;
+    background-image: url(/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_cover.png);
+    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_cover.svg);
+    height: 160px;
+}
+
+.section_cover-syria {
+    background-repeat: no-repeat;
+    background-image: url(/news/special/2015/newsspec_12499/content/english/img/syria/syria_cover.png);
+    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/syria/syria_cover.svg);
+}
+
+.section_cover-siberia {
+    background-repeat: no-repeat;
+    background-image: url(/news/special/2015/newsspec_12499/content/english/img/siberia/siberia_cover.png);
+    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/siberia/siberia_cover.svg);
+}
+
+.section_cover-pakistan {
+    background-repeat: no-repeat;
+    background-image: url(/news/special/2015/newsspec_12499/content/english/img/pakistan/pakistan_cover.png);
+    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/pakistan/pakistan_cover.svg);
+}
+
+.section_cover-us {
+    background-repeat: no-repeat;
+    background-image: url(/news/special/2015/newsspec_12499/content/english/img/us/us_cover.png);
+    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/us/us_cover.svg);
+}
+
+.section_cover-congo {
+    background-repeat: no-repeat;
+    background-image: url(/news/special/2015/newsspec_12499/content/english/img/congo/congo_cover.png);
+    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/congo/congo_cover.svg);
+}

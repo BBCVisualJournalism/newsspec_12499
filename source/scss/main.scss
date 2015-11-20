@@ -3,10 +3,19 @@
 @import "app";
 
 @import "intro";
+@import "section";
+@import "section_covers";
 @import "creditsShareAndMore";
 
 .ns_rtl { direction: rtl; }
 .main {
     font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
     color: $mine_shaft;
+    a {
+        text-decoration: none;
+        border-bottom: 1px solid $alto;
+        color: $mine_shaft;
+        font-weight: bold;
+        &:hover { color: $tory_blue; }
+    }
 }

@@ -1,5 +1,5 @@
 <section class="section section-siberia">
-    <div class="section_cover section_cover-bluegreen section_cover-siberia"></div>
+    <div class="section_cover section_cover-b section_cover-siberia"></div>
 
     <div class="section_container">
         <div class="profile_photo profile_photo-siberia">
@@ -9,7 +9,9 @@
 
         <p class="section_paragraph">{{= siberia_para_1 }}</p>
         <p class="section_paragraph">{{= siberia_para_2 }}</p>
+    </div>
 
+    <div class="section_container-media">
         <div class="section_video_container section_video_container-siberia">
             <div class="section_video"></div>
             <div class="section_video_overlay">
@@ -17,7 +19,11 @@
                 <div class="section_video_overlay_label">{{= siberia_video_title }}</div>
             </div>
         </div>
-        <img src="{{= pathStatic }}/{{= vocab_dir }}/img/siberia/siberia_image_1_630.jpg" alt="{{= siberia_img_1_alt }}" class="section_photo section_photo-one">
-        <img src="{{= pathStatic }}/{{= vocab_dir }}/img/siberia/sewing.svg" data-fallback="{{= pathStatic }}/{{= vocab_dir }}/img/siberia/sewing.png" alt="{{= siberia_img_2_alt }}" class="section_photo section_photo-two">
+        <div class="section_photo section_photo-one">
+            <img src="{{= pathStatic }}/{{= vocab_dir }}/img/siberia/siberia_image_1_630.jpg" alt="{{= siberia_img_1_alt }}">
+        </div>
+        <div class="section_photo section_photo-two">
+            <img src="{{= pathStatic }}/{{= vocab_dir }}/img/siberia/sewing.svg" data-fallback="{{= pathStatic }}/{{= vocab_dir }}/img/siberia/sewing.png" alt="{{= siberia_img_2_alt }}">
+        </div>
     </div>
 </section>

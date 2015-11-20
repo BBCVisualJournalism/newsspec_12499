@@ -1,5 +1,5 @@
 <section class="section section-us">
-    <div class="section_cover section_cover_bluegreen section_cover-us"></div>
+    <div class="section_cover section_cover-b section_cover-us"></div>
 
     <div class="section_container">
         <div class="profile_photo profile_photo-us">
@@ -9,7 +9,8 @@
 
         <p class="section_paragraph">{{= us_para_1 }}</p>
         <p class="section_paragraph">{{= us_para_2 }}</p>
-
+    </div>
+    <div class="section_container-media">
         <div class="section_video_container section_video_container-us">
             <div class="section_video"></div>
             <div class="section_video_overlay">
@@ -17,7 +18,11 @@
                 <div class="section_video_overlay_label">{{= us_video_title }}</div>
             </div>
         </div>
-        <img src="{{= pathStatic }}/{{= vocab_dir }}/img/us/us_image_1_630.jpg" alt="{{= us_img_1_alt }}" class="section_photo section_photo-one">
-        <img src="{{= pathStatic }}/{{= vocab_dir }}/img/us/us_image_2_630.jpg" alt="{{= us_img_2_alt }}" class="section_photo section_photo-two">
+        <div class="section_photo section_photo-one">
+            <img src="{{= pathStatic }}/{{= vocab_dir }}/img/us/us_image_1_630.jpg" alt="{{= us_img_1_alt }}">
+        </div>
+        <div class="section_photo section_photo-two">
+            <img src="{{= pathStatic }}/{{= vocab_dir }}/img/us/us_image_2_630.jpg" alt="{{= us_img_2_alt }}">
+        </div>
     </div>
 </section>
