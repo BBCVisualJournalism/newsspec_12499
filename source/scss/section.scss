@@ -5,7 +5,7 @@
 .profile_photo {
     width: 96px;
     height: 96px;
-    margin: -48px 0 0;
+    margin-top: -48px;
     position: relative;
 }
 
@@ -14,6 +14,7 @@
     line-height: 28px;
     color: $black;
     margin: 40px 0;
+    position: relative;
 }
 
 .section_paragraph {
@@ -60,4 +61,52 @@
     margin: 40px 0 48px;
     font-size: 1.6em;
     line-height: 22px;
+}
+
+@include respondMinMax(768px, false) {
+    .section_container, .section_container-media {
+        margin: 0 78px;
+    }
+
+    .profile_photo {
+        width: 235px;
+        height: 235px;
+        margin-top: -117.5px;
+        float: left;
+    }
+
+    .section_title {
+        font-size: 3.2em;
+        line-height: 36px;
+        float: left;
+        margin: 0 26px;
+        height: 117.5px;
+        span {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 350px;
+        }
+    }
+
+    .section_text {
+        margin: 68px 0;
+    }
+
+    .section_video_container {
+        margin-bottom: 36px;
+    }
+
+    .section_photo {
+        width: 297px;
+        height: 297px;
+        float: left;
+        &-one {
+            margin: 0 16px 0 0;
+        }
+    }
+
+    .hashtag {
+        margin: 68px 0 76px;
+    }
 }

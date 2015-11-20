@@ -53,6 +53,11 @@
 }
 
 @include respondMinMax(768px, false) {
+    .section_cover {
+        height: 304px;
+        background-position: bottom right 66px;
+        background-size: auto 274px;
+    }
     .section_cover-venezuela {
         background-size: auto 274px;
         background-position: bottom right 66px;
