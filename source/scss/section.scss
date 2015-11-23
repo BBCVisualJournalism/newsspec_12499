@@ -65,7 +65,8 @@
 
 @include respondMinMax(768px, false) {
     .section_container, .section_container-media {
-        margin: 0 78px;
+        width: 612px;
+        margin: 0 auto;
     }
 
     .profile_photo {
