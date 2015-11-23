@@ -68,6 +68,21 @@
         height: 274px;
         width: 636px;
         margin-left: -318px;
-        background-position: bottom right;
+    }
+}
+
+@include respondMinMax(1008px, false) {
+    .section_cover_container {
+        height: 360px;
+    }
+
+    .section_cover {
+        height: 324px;
+        width: 720px;
+        margin-left: -360px;
+    }
+
+    .section_cover-venezuela {
+        height: 348px;
     }
 }

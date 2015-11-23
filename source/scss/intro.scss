@@ -130,3 +130,47 @@
         right: 18px;
     }
 }
+
+@include respondMinMax(1008px, false) {
+    .intro_title {
+        font-size: 5.2em;
+        line-height: 56px;
+        width: 612px;
+    }
+
+    .intro_paragraph {
+        font-size: 1.6em;
+        line-height: 22px;
+        width: 450px;
+    }
+
+    .scrollbutton {
+        top: 400px;
+    }
+
+    .blobs {
+        width: 1008px;
+    }
+
+    .blob-dishes {
+        width: 228px;
+        top: -125px;
+        left: 28px;
+    }
+
+    .blob-books {
+        width: 266px;
+        top: -12px;
+        left: 125px;
+    }
+
+    .blob-silence {
+        width: 266px;
+        top: -22px;
+    }
+
+    .blob-needle {
+        width: 248px;
+        top: -125px;
+    }
+}

@@ -81,7 +81,7 @@
         font-size: 3.2em;
         line-height: 36px;
         float: left;
-        margin: 0 26px;
+        margin: 0 0 0 26px;
         height: 117.5px;
         span {
             position: absolute;
@@ -110,5 +110,28 @@
 
     .hashtag {
         margin: 68px 0 76px;
+    }
+}
+
+@include respondMinMax(1008px, false) {
+    .section_container, .section_container-media {
+        width: 816px;
+        padding-right: 172px;
+    }
+
+    .profile_photo {
+        width: 314px;
+        height: 314px;
+        margin-top: -157px;
+    }
+
+    .section_title {
+        margin-left: 36px;
+        height: 157px;
+    }
+
+    .section_photo {
+        width: 314px;
+        height: 314px;
     }
 }
