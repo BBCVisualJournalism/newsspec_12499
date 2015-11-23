@@ -1,25 +1,32 @@
-.section_cover {
+.section_cover_container {
     height: 200px;
-    background-position: bottom right;
-    background-size: auto 160px;
+    position: relative;
 }
 
-.section_cover-a {
+.section_cover_container-a {
     background-color: $wafer;
     border-bottom: solid 2px $morning_glory;
 }
 
-.section_cover-b {
+.section_cover_container-b {
     background-color: $powder_blue;
     border-bottom: solid 2px $amaranth;
+}
+
+.section_cover {
+    height: 160px;
+    background-position: bottom right;
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -160px;
 }
 
 .section_cover-venezuela {
     background-repeat: no-repeat;
     background-image: url(/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_cover.png);
     background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_cover.svg);
-    background-position: bottom right;
-    background-size: auto 160px;
 }
 
 .section_cover-syria {
@@ -53,13 +60,14 @@
 }
 
 @include respondMinMax(768px, false) {
-    .section_cover {
+    .section_cover_container {
         height: 304px;
-        background-position: bottom right 66px;
-        background-size: auto 274px;
     }
-    .section_cover-venezuela {
-        background-size: auto 274px;
-        background-position: bottom right 66px;
+
+    .section_cover {
+        height: 274px;
+        width: 636px;
+        margin-left: -318px;
+        background-position: bottom right;
     }
 }

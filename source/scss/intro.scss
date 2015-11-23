@@ -71,6 +71,14 @@
     z-index: 7;
 }
 
+@include respondMinMax(364px, false) {
+    .blobs {
+        width: 320px;
+        margin: 0 auto;
+        overflow: visible;
+    }
+}
+
 @include respondMinMax(768px, false) {
     .intro_title {
         font-size: 4.8em;
@@ -96,6 +104,7 @@
 
     .blobs {
         height: 574px;
+        width: 768px;
     }
 
     .blob-dishes {
