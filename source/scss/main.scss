@@ -5,6 +5,7 @@
 @import "intro";
 @import "section";
 @import "section_covers";
+@import "video";
 @import "creditsShareAndMore";
 
 .ns_rtl { direction: rtl; }
@@ -17,6 +18,33 @@
         color: $mine_shaft;
         font-weight: bold;
         &:hover { color: $tory_blue; }
+    }
+}
+
+.ns_creditsHolder {
+    width: 304px;
+    padding: 0 0 60px;
+    max-width: none;
+}
+.ns_onwardJourneys_group_img {
+    width: 165px;
+    float: left;
+    margin: 0 16px 12px 0;
+}
+.ns_onwardJourneys_group_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@include respondMinMax(768px, false) {
+    .ns_creditsHolder {
+        width: 612px;
+    }
+}
+@include respondMinMax(1008px, false) {
+    .ns_creditsHolder {
+        width: 816px;
+        padding-right: 172px;
     }
 }
 
