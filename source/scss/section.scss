@@ -19,6 +19,7 @@
 
 .section_paragraph {
     font-size: 1.6em;
+    line-height: 22px;
     margin: 0 0 30px;
 }
 
@@ -68,6 +69,11 @@
         margin: 68px 0;
     }
 
+    .section_paragraph {
+        font-size: 1.8em;
+        line-height: 24px;
+    }
+
     .section_video_container {
         margin-bottom: 36px;
     }
@@ -101,6 +107,11 @@
     .section_title {
         margin-left: 36px;
         height: 157px;
+    }
+
+    .section_paragraph {
+        font-size: 1.6em;
+        line-height: 22px;
     }
 
     .section_photo {
