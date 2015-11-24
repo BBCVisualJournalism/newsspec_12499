@@ -27,33 +27,6 @@
     margin: 0 auto;
 }
 
-.section_video_container {
-    height: 171px;
-    background-color: $black;
-    position: relative;
-    margin-bottom: 32px;
-}
-
-.section_video_overlay_play {
-    width: 64px;
-    height: 64px;
-    background: $black no-repeat center;
-    background-image: url(/news/special/2015/newsspec_12499/content/english/img/play_button.png);
-    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/play_button.svg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border: none;
-    cursor: pointer;
-    &:hover {
-        background-color: $guardsman_red;
-    }
-}
-
-.section_video_overlay_label {
-    display: none;
-}
-
 .section_photo-one {
     margin-bottom: 16px;
 }
