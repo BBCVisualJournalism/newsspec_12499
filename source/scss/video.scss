@@ -34,9 +34,9 @@
     background-color: $black;
     background-color: $black_80;
     background-image: url(/news/special/2015/newsspec_12499/content/english/img/play_button.png);
-    background-image: linear-gradient(transparent, transparent), url(/news/special/2015/newsspec_12499/content/english/img/play_button.svg);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: contain;
     transition: background-color 500ms;
     border: none;
     float: left;
