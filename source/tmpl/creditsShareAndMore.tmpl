@@ -3,16 +3,16 @@
 	<h2>{{= credits_title }}</h2>
 	<p>{{= credits_para }}</p>
 	<h2 class="ns_shareThisStoryTitle">{{= share_title }} <a href="{{= share_disclaimer_url }}">{{= share_disclaimer_title }}</a></h2>
-	<a href="mailto:?subject=<!-- urlencodeme-start -->{{= email_subject }}<!-- urlencodeme-end -->&amp;body=<!-- urlencodeme-start -->{{= email_body }}<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareEmailIcon">
+	<a href="mailto:?subject={{= email_subject_urlencoded }}&amp;body={{= email_body_urlencoded }}%0A{{= share_url_urlencoded }}" class="ns_shareIconLink ns_shareEmailIcon">
 		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/email.png" alt="{{= share_email }}">
 	</a>
-	<a href="http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri=<!-- urlencodeme-start -->{{= facebook_share_url }}<!-- urlencodeme-end -->&amp;link=<!-- urlencodeme-start -->{{= facebook_share_url }}<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareFacebookIcon">
+	<a href="http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri={{= share_url_urlencoded }}&amp;link={{= share_url_urlencoded }}" class="ns_shareIconLink ns_shareFacebookIcon">
 		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/facebook.png" alt="{{= share_facebook }}">
 	</a>
-	<a href="https://twitter.com/intent/tweet?text=<!-- urlencodeme-start -->{{= twitter_message }}<!-- urlencodeme-end -->&amp;url=<!-- urlencodeme-start -->{{= twitter_share_url }}<!-- urlencodeme-end -->" data-social-url="https://twitter.com/intent/tweet?text=<!-- urlencodeme-start -->{{= twitter_message }}<!-- urlencodeme-end -->&amp;url=" data-target-url="<!-- urlencodeme-start -->{{= twitter_share_url }}<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareTwitterIcon">
+	<a href="https://twitter.com/intent/tweet?text={{= twitter_message_urlencoded }}&amp;url={{= share_url_urlencoded }}" data-social-url="https://twitter.com/intent/tweet?text={{= twitter_message_urlencoded }}&amp;url=" data-target-url="{{= share_url_urlencoded }}" class="ns_shareIconLink ns_shareTwitterIcon">
 		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/twitter.png" alt="{{= share_twitter }}">
 	</a>
-	<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<!-- urlencodeme-start -->{{= linkedin_share_url }}<!-- urlencodeme-end -->&amp;title=<!-- urlencodeme-start -->{{= linkedin_title }}<!-- urlencodeme-end -->&amp;summary=<!-- urlencodeme-start -->{{= linkedin_summary }}<!-- urlencodeme-end -->&amp;source=<!-- urlencodeme-start -->BBC News<!-- urlencodeme-end -->" class="ns_shareIconLink ns_shareLinkedInIcon">
+	<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{= share_url_urlencoded }}&amp;title={{= linkedin_title_urlencoded }}&amp;summary={{= linkedin_summary_urlencoded }}&amp;source=BBC%20News" class="ns_shareIconLink ns_shareLinkedInIcon">
 		<img src="{{= pathStatic }}/{{= vocab_dir }}/img/share-icons/linkedin.png" alt="{{= share_linkedin }}">
 	</a>
 	<div class="ns_onwardJourneys">
