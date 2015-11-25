@@ -1,4 +1,6 @@
 define(['lib/news_special/bootstrap', 'video', 'bind.polyfill'], function (news, Video) {
+    news.$('.main').removeClass('no-js');
+
     $.emit('init_images');
 
     new Video('#section_video_container-venezuela', 'p02w03kx', 'http://news.stage.bbc.co.uk/news/special/2015/newsspec_12499/content/english/img/venezuela/venezuela_poster_image_1290.jpg');
