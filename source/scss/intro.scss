@@ -23,16 +23,6 @@
     margin: 0 16px;
 }
 
-.scrollbutton {
-    width: 36px;
-    height: 36px;
-    position: absolute;
-    left: 50%;
-    margin-left: -18px;
-    top: 280px;
-    z-index: 10;
-}
-
 .blobs {
     position: relative;
     height: 620px;
@@ -95,13 +85,6 @@
         margin: 0 auto;
     }
 
-    .scrollbutton {
-        width: 44px;
-        height: 44px;
-        margin-left: -22px;
-        top: 600px;
-    }
-
     .blobs {
         height: 574px;
         width: 768px;
@@ -142,10 +125,6 @@
         font-size: 1.6em;
         line-height: 22px;
         width: 450px;
-    }
-
-    .scrollbutton {
-        top: 400px;
     }
 
     .blobs {
