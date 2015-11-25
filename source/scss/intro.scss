@@ -69,20 +69,54 @@
     }
 }
 
+@include respondMinMax(600px, false) {
+    .intro_title {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .intro_paragraph {
+        width: 400px;
+        margin: 0 auto 20px;
+    }
+
+    .blobs {
+        width: 600px;
+        height: 532px;
+    }
+
+    .blob-dishes {
+        left: 8px;
+    }
+
+    .blob-books {
+        top: 131px;
+        left: 77px;
+    }
+
+    .blob-silence {
+        top: 0;
+        right: 76px;
+    }
+
+    .blob-needle {
+        top: 132px;
+        right: 4px;
+    }
+}
+
 @include respondMinMax(768px, false) {
     .intro_title {
         font-size: 4.8em;
         line-height: 52px;
         width: 568px;
         padding: 64px 0 34px;
-        margin: 0 auto;
     }
 
     .intro_paragraph {
         font-size: 1.8em;
         line-height: 24px;
         width: 568px;
-        margin: 0 auto 20px;
     }
 
     .blobs {

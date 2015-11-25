@@ -27,6 +27,13 @@
     }
 }
 
+@include respondMinMax(600px, false) {
+    .section_cover {
+        width: 468px;
+        margin-left: -234px;
+    }
+}
+
 @include respondMinMax(768px, false) {
     .section_cover_container {
         height: 304px;

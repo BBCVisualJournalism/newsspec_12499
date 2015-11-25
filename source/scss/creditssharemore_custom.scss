@@ -26,18 +26,24 @@
     padding: 0;
 }
 
-@include respondMinMax(768px, false) {
+@include respondMinMax(600px, false) {
     .ns_creditsHolder {
-        width: 612px;
+        width: 532px;
         padding-bottom: 60px;
-        p {
-            font-size: 1.8em;
-            line-height: 24px;
-        }
     }
 
     .ns_onwardJourneys_group_img {
         float: left;
+    }
+}
+
+@include respondMinMax(768px, false) {
+    .ns_creditsHolder {
+        width: 612px;
+        p {
+            font-size: 1.8em;
+            line-height: 24px;
+        }
     }
 }
 
