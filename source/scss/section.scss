@@ -24,8 +24,7 @@
 }
 
 .section_container-media {
-    width: 304px;
-    margin: 0 auto;
+    margin: 0 8px;
 }
 
 .section_photo-one {
@@ -38,10 +37,25 @@
     line-height: 22px;
 }
 
+@include respondMinMax(600px, false) {
+    .section_container, .section_container-media {
+        width: 532px;
+        margin: 0 auto;
+    }
+
+    .section_photo {
+        width: 258px;
+        height: 258px;
+        float: left;
+        &-one {
+            margin: 0 16px 0 0;
+        }
+    }
+}
+
 @include respondMinMax(768px, false) {
     .section_container, .section_container-media {
         width: 612px;
-        margin: 0 auto;
     }
 
     .profile_photo {
@@ -79,12 +93,8 @@
     }
 
     .section_photo {
-        width: 297px;
-        height: 297px;
-        float: left;
-        &-one {
-            margin: 0 16px 0 0;
-        }
+        width: 298px;
+        height: 298px;
     }
 
     .hashtag {
