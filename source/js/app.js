@@ -1,5 +1,5 @@
 define(['lib/news_special/bootstrap', 'video', 'bind.polyfill'], function (news, Video) {
-    news.$('.main').removeClass('no-js');
+    news.$('.main').removeClass('ns_no-js');
 
     $.emit('init_images');
 
