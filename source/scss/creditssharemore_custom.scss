@@ -1,0 +1,50 @@
+.ns_creditsHolder {
+    width: 304px;
+    max-width: none;
+    padding: 0;
+    p {
+        font-size: 1.6em;
+        line-height: 22px;
+    }
+}
+
+.ns_onwardJourneys_group {
+    padding-top: 8px;
+}
+
+.ns_onwardJourneys_group_img {
+    width: 165px;
+    margin: 0 16px 12px 0;
+}
+
+.ns_onwardJourneys_group_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@include respondMinMax(768px, false) {
+    .ns_creditsHolder {
+        width: 612px;
+        padding-bottom: 60px;
+        p {
+            font-size: 1.8em;
+            line-height: 24px;
+        }
+    }
+
+    .ns_onwardJourneys_group_img {
+        float: left;
+    }
+}
+
+@include respondMinMax(1008px, false) {
+    .ns_creditsHolder {
+        width: 816px;
+        padding-right: 172px;
+        p {
+            font-size: 1.6em;
+            line-height: 22px;
+        }
+    }
+}
