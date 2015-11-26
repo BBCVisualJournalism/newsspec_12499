@@ -27,6 +27,11 @@
     box-sizing: content-box;
 }
 
+.full-frame-scaffold-news-banner {
+    position: relative;
+    z-index: 2;
+}
+
 .clear {
     clear: both;
 }

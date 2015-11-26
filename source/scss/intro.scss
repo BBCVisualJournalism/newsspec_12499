@@ -9,6 +9,8 @@
     padding: 34px 8px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .intro_title_red {
@@ -21,12 +23,14 @@
     line-height: 22px;
     text-align: center;
     margin: 0 16px 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .blobs {
     position: relative;
     height: 617px;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .blob {
@@ -61,11 +65,36 @@
     z-index: 7;
 }
 
+.bubble {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    z-index: 1;
+    top: 166px;
+    left: 110px;
+    &-1 {
+        animation: bubbleUp 10s linear infinite, bubbleSidewaysA 12s ease-in-out infinite alternate;
+    }
+    &-2 {
+        animation: bubbleUp 12s linear infinite, bubbleSidewaysB 11s ease-in-out infinite;
+    }
+    &-3 {
+        animation: bubbleUp 15s linear infinite, bubbleSidewaysA 10s ease-in-out infinite alternate;
+    }
+    &-4 {
+        animation: bubbleUp 17s linear infinite, bubbleSidewaysB 9s ease-in-out infinite;
+    }
+    &-5 {
+        animation: bubbleUp 20s linear infinite, bubbleSidewaysA 8s ease-in-out infinite alternate;
+    }
+    svg text { display: none; }
+}
+
 @include respondMinMax(364px, false) {
     .blobs {
         width: 320px;
         margin: 0 auto;
-        overflow: visible;
+        // overflow: visible;
     }
 }
 
@@ -146,6 +175,27 @@
         top: 100px;
         right: 18px;
     }
+
+    .bubble {
+        width: 28px;
+        height: 28px;
+        left: 110px;
+        &-1 {
+            animation: bubbleUp768 10s linear infinite, bubbleSidewaysA768 15s ease-in-out infinite alternate;
+        }
+        &-2 {
+            animation: bubbleUp768 12s linear infinite, bubbleSidewaysB768 14s ease-in-out infinite alternate;
+        }
+        &-3 {
+            animation: bubbleUp768 15s linear infinite, bubbleSidewaysA768 13s ease-in-out infinite alternate;
+        }
+        &-4 {
+            animation: bubbleUp768 17s linear infinite, bubbleSidewaysB768 12s ease-in-out infinite alternate;
+        }
+        &-5 {
+            animation: bubbleUp768 20s linear infinite, bubbleSidewaysA768 11s ease-in-out infinite alternate;
+        }
+    }
 }
 
 @include respondMinMax(1008px, false) {
@@ -186,5 +236,118 @@
     .blob-needle {
         width: 248px;
         top: -125px;
+    }
+
+    .bubble {
+        top: 140px;
+        left: 150px;
+        &-1 {
+            animation: bubbleUp1008 10s linear infinite, bubbleSidewaysA1008 12s ease-in-out infinite alternate;
+        }
+        &-2 {
+            animation: bubbleUp1008 12s linear infinite, bubbleSidewaysB1008 11s ease-in-out infinite;
+        }
+        &-3 {
+            animation: bubbleUp1008 15s linear infinite, bubbleSidewaysA1008 10s ease-in-out infinite alternate;
+        }
+        &-4 {
+            animation: bubbleUp1008 17s linear infinite, bubbleSidewaysB1008 9s ease-in-out infinite;
+        }
+        &-5 {
+            animation: bubbleUp1008 20s linear infinite, bubbleSidewaysA1008 8s ease-in-out infinite alternate;
+        }
+    }
+}
+
+@keyframes bubbleUp {
+    0% {
+        top: 166px;
+    }
+    100% {
+        top: -350px;
+    }
+}
+
+@keyframes bubbleSidewaysA {
+    0% {
+        left: 180px;
+    }
+    100% {
+        left: 10px;
+    }
+}
+
+@keyframes bubbleSidewaysB {
+    0% {
+        left: 100px;
+    }
+    25% {
+        left: 10px;
+    }
+    75% {
+        left: 180px;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+@keyframes bubbleUp768 {
+    0% {
+        top: 182px;
+    }
+    100% {
+        top: -350px;
+    }
+}
+
+@keyframes bubbleSidewaysA768 {
+    0% {
+        left: 250px;
+    }
+    100% {
+        left: 50px;
+    }
+}
+
+@keyframes bubbleSidewaysB768 {
+    0% {
+        left: 110px;
+    }
+    100% {
+        left: 300px;
+    }
+}
+
+@keyframes bubbleUp1008 {
+    0% {
+        top: 140px;
+    }
+    100% {
+        top: -350px;
+    }
+}
+
+@keyframes bubbleSidewaysA1008 {
+    0% {
+        left: 325px;
+    }
+    100% {
+        left: 150px;
+    }
+}
+
+@keyframes bubbleSidewaysB1008 {
+    0% {
+        left: 237px;
+    }
+    25% {
+        left: 150px
+    }
+    75% {
+        left: 325px;
+    }
+    100% {
+        left: 237px;
     }
 }
