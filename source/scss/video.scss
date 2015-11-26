@@ -6,9 +6,6 @@
     overflow: visible;
     margin: 0 auto 32px;
     cursor: pointer;
-    &:hover .section_video_overlay_play {
-        background-color: $guardsman_red;
-    }
 }
 
 .section_video {
@@ -21,51 +18,53 @@
 }
 
 .section_video_overlay {
+    display: none;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    top: 22px;
+    left: 22px;
     overflow: hidden;
     z-index: 1000;
-}
-
-.section_video_overlay_play {
-    width: 64px;
-    height: 64px;
-    background-color: $black;
-    background-color: $black_80;
-    background-image: url(/news/special/2015/newsspec_12499/content/english/img/play_button.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    transition: background-color 500ms;
-    border: none;
-    float: left;
-}
-
-.section_video_overlay_label {
-    display: none;
-    float: left;
-    height: 64px;
-    margin-left: 1px;
-    background-color: $black;
-    background-color: $black_80;
-    color: $white;
-    font-size: 2.4em;
-    font-weight: bold;
-    padding: 20px;
+    &:hover .section_video_overlay_play {
+        background-color: $guardsman_red;
+    }
+    &_play {
+        width: 64px;
+        height: 64px;
+        background-color: $black;
+        background-color: $black_80;
+        background-image: url(/news/special/2015/newsspec_12499/content/english/img/play_button.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        transition: background-color 500ms;
+        border: none;
+        float: left;
+    }
+    &_label {
+        float: left;
+        height: 64px;
+        margin-left: 1px;
+        background-color: $black;
+        background-color: $black_80;
+        color: $white;
+        font-size: 2.4em;
+        font-weight: bold;
+        padding: 20px;
+    }
+    &-hidden {
+        display: none;
+    }
 }
 
 @include respondMinMax(768px, false) {
     .section_video_container {
         margin-bottom: 36px;
     }
-    
-    .section_video_overlay {
-        top: 22px;
-        left: 22px;
-    }
 
-    .section_video_overlay_label {
+    .section_video_overlay {
         display: block;
+        &-hidden {
+            display: none;
+        }
     }
 }
