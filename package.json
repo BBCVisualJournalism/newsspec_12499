@@ -5,7 +5,7 @@
     "url": "http://github.com/BBCVisualJournalism/newsspec_12499"
   },
   "description":    "Explores what young women think they need to be like to be considered a 'good girl' in their communities",
-  "version":        "0.1.22",
+  "version":        "0.1.23",
   "devDependencies": {
     "casperjs":                         "1.1.0-beta3",
     "grunt":                            "~0.4.0",
