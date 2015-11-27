@@ -30,7 +30,6 @@
 .blobs {
     position: relative;
     height: 617px;
-    // overflow: hidden;
 }
 
 .blob {
@@ -84,17 +83,12 @@
     &-4 {
         animation: bubbleUp 17s linear infinite, bubbleSidewaysB 9s ease-in-out infinite;
     }
-    &-5 {
-        animation: bubbleUp 20s linear infinite, bubbleSidewaysA 8s ease-in-out infinite alternate;
-    }
-    svg text { display: none; }
 }
 
 @include respondMinMax(364px, false) {
     .blobs {
         width: 320px;
         margin: 0 auto;
-        // overflow: visible;
     }
 }
 
@@ -192,9 +186,6 @@
         &-4 {
             animation: bubbleUp768 17s linear infinite, bubbleSidewaysB768 12s ease-in-out infinite alternate;
         }
-        &-5 {
-            animation: bubbleUp768 20s linear infinite, bubbleSidewaysA768 11s ease-in-out infinite alternate;
-        }
     }
 }
 
@@ -253,9 +244,6 @@
         &-4 {
             animation: bubbleUp1008 17s linear infinite, bubbleSidewaysB1008 9s ease-in-out infinite;
         }
-        &-5 {
-            animation: bubbleUp1008 20s linear infinite, bubbleSidewaysA1008 8s ease-in-out infinite alternate;
-        }
     }
 }
 
@@ -273,22 +261,22 @@
         left: 180px;
     }
     100% {
-        left: 10px;
+        left: 32px;
     }
 }
 
 @keyframes bubbleSidewaysB {
     0% {
-        left: 100px;
+        left: 106px;
     }
     25% {
-        left: 10px;
+        left: 32px;
     }
     75% {
         left: 180px;
     }
     100% {
-        left: 100px;
+        left: 106px;
     }
 }
 
@@ -306,7 +294,7 @@
         left: 250px;
     }
     100% {
-        left: 50px;
+        left: 60px;
     }
 }
 
