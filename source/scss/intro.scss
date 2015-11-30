@@ -73,15 +73,27 @@
     left: 110px;
     background-image: url(data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2031.034%2030.121%22%20enable-background%3D%22new%200%200%2031.034%2030.121%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%3Ccircle%20fill%3D%22%23FFFFFF%22%20stroke%3D%22%2396DED1%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20cx%3D%2215.908%22%20cy%3D%2214.818%22%20r%3D%2211.661%22/%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20stroke%3D%22%2396DED1%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20d%3D%22M15.908%2C21.915c-3.92%2C0-7.098-3.178-7.098-7.098%22/%3E%3C/g%3E%3C/svg%3E);
     &-1 {
+        -webkit-animation: bubbleUp 10s linear infinite, bubbleSidewaysA 12s ease-in-out infinite alternate;
+        -moz-animation: bubbleUp 10s linear infinite, bubbleSidewaysA 12s ease-in-out infinite alternate;
+        -o-animation: bubbleUp 10s linear infinite, bubbleSidewaysA 12s ease-in-out infinite alternate;
         animation: bubbleUp 10s linear infinite, bubbleSidewaysA 12s ease-in-out infinite alternate;
     }
     &-2 {
+        -webkit-animation: bubbleUp 12s linear infinite, bubbleSidewaysB 11s ease-in-out infinite;
+        -moz-animation: bubbleUp 12s linear infinite, bubbleSidewaysB 11s ease-in-out infinite;
+        -o-animation: bubbleUp 12s linear infinite, bubbleSidewaysB 11s ease-in-out infinite;
         animation: bubbleUp 12s linear infinite, bubbleSidewaysB 11s ease-in-out infinite;
     }
     &-3 {
+        -webkit-animation: bubbleUp 15s linear infinite, bubbleSidewaysA 10s ease-in-out infinite alternate;
+        -moz-animation: bubbleUp 15s linear infinite, bubbleSidewaysA 10s ease-in-out infinite alternate;
+        -o-animation: bubbleUp 15s linear infinite, bubbleSidewaysA 10s ease-in-out infinite alternate;
         animation: bubbleUp 15s linear infinite, bubbleSidewaysA 10s ease-in-out infinite alternate;
     }
     &-4 {
+        -webkit-animation: bubbleUp 17s linear infinite, bubbleSidewaysB 9s ease-in-out infinite;
+        -moz-animation: bubbleUp 17s linear infinite, bubbleSidewaysB 9s ease-in-out infinite;
+        -o-animation: bubbleUp 17s linear infinite, bubbleSidewaysB 9s ease-in-out infinite;
         animation: bubbleUp 17s linear infinite, bubbleSidewaysB 9s ease-in-out infinite;
     }
 }
@@ -176,15 +188,27 @@
         height: 28px;
         left: 110px;
         &-1 {
+            -webkit-animation: bubbleUp768 10s linear infinite, bubbleSidewaysA768 15s ease-in-out infinite alternate;
+            -moz-animation: bubbleUp768 10s linear infinite, bubbleSidewaysA768 15s ease-in-out infinite alternate;
+            -o-animation: bubbleUp768 10s linear infinite, bubbleSidewaysA768 15s ease-in-out infinite alternate;
             animation: bubbleUp768 10s linear infinite, bubbleSidewaysA768 15s ease-in-out infinite alternate;
         }
         &-2 {
+            -webkit-animation: bubbleUp768 12s linear infinite, bubbleSidewaysB768 14s ease-in-out infinite alternate;
+            -moz-animation: bubbleUp768 12s linear infinite, bubbleSidewaysB768 14s ease-in-out infinite alternate;
+            -o-animation: bubbleUp768 12s linear infinite, bubbleSidewaysB768 14s ease-in-out infinite alternate;
             animation: bubbleUp768 12s linear infinite, bubbleSidewaysB768 14s ease-in-out infinite alternate;
         }
         &-3 {
+            -webkit-animation: bubbleUp768 15s linear infinite, bubbleSidewaysA768 13s ease-in-out infinite alternate;
+            -moz-animation: bubbleUp768 15s linear infinite, bubbleSidewaysA768 13s ease-in-out infinite alternate;
+            -o-animation: bubbleUp768 15s linear infinite, bubbleSidewaysA768 13s ease-in-out infinite alternate;
             animation: bubbleUp768 15s linear infinite, bubbleSidewaysA768 13s ease-in-out infinite alternate;
         }
         &-4 {
+            -webkit-animation: bubbleUp768 17s linear infinite, bubbleSidewaysB768 12s ease-in-out infinite alternate;
+            -moz-animation: bubbleUp768 17s linear infinite, bubbleSidewaysB768 12s ease-in-out infinite alternate;
+            -o-animation: bubbleUp768 17s linear infinite, bubbleSidewaysB768 12s ease-in-out infinite alternate;
             animation: bubbleUp768 17s linear infinite, bubbleSidewaysB768 12s ease-in-out infinite alternate;
         }
     }
@@ -234,109 +258,197 @@
         top: 140px;
         left: 150px;
         &-1 {
+            -webkit-animation: bubbleUp1008 10s linear infinite, bubbleSidewaysA1008 12s ease-in-out infinite alternate;
+            -moz-animation: bubbleUp1008 10s linear infinite, bubbleSidewaysA1008 12s ease-in-out infinite alternate;
+            -o-animation: bubbleUp1008 10s linear infinite, bubbleSidewaysA1008 12s ease-in-out infinite alternate;
             animation: bubbleUp1008 10s linear infinite, bubbleSidewaysA1008 12s ease-in-out infinite alternate;
         }
         &-2 {
+            -webkit-animation: bubbleUp1008 12s linear infinite, bubbleSidewaysB1008 11s ease-in-out infinite;
+            -moz-animation: bubbleUp1008 12s linear infinite, bubbleSidewaysB1008 11s ease-in-out infinite;
+            -o-animation: bubbleUp1008 12s linear infinite, bubbleSidewaysB1008 11s ease-in-out infinite;
             animation: bubbleUp1008 12s linear infinite, bubbleSidewaysB1008 11s ease-in-out infinite;
         }
         &-3 {
+            -webkit-animation: bubbleUp1008 15s linear infinite, bubbleSidewaysA1008 10s ease-in-out infinite alternate;
+            -moz-animation: bubbleUp1008 15s linear infinite, bubbleSidewaysA1008 10s ease-in-out infinite alternate;
+            -o-animation: bubbleUp1008 15s linear infinite, bubbleSidewaysA1008 10s ease-in-out infinite alternate;
             animation: bubbleUp1008 15s linear infinite, bubbleSidewaysA1008 10s ease-in-out infinite alternate;
         }
         &-4 {
+            -webkit-animation: bubbleUp1008 17s linear infinite, bubbleSidewaysB1008 9s ease-in-out infinite;
+            -moz-animation: bubbleUp1008 17s linear infinite, bubbleSidewaysB1008 9s ease-in-out infinite;
+            -o-animation: bubbleUp1008 17s linear infinite, bubbleSidewaysB1008 9s ease-in-out infinite;
             animation: bubbleUp1008 17s linear infinite, bubbleSidewaysB1008 9s ease-in-out infinite;
         }
     }
 }
 
+@-webkit-keyframes bubbleUp {
+    0% { top: 166px; }
+    100% { top: -350px; }
+}
+@-moz-keyframes bubbleUp {
+    0% { top: 166px; }
+    100% { top: -350px; }
+}
+@-o-keyframes bubbleUp {
+    0% { top: 166px; }
+    100% { top: -350px; }
+}
 @keyframes bubbleUp {
-    0% {
-        top: 166px;
-    }
-    100% {
-        top: -350px;
-    }
+    0% { top: 166px; }
+    100% { top: -350px; }
 }
 
+@-webkit-keyframes bubbleSidewaysA {
+    0% { left: 180px; }
+    100% { left: 32px; }
+}
+@-moz-keyframes bubbleSidewaysA {
+    0% { left: 180px; }
+    100% { left: 32px; }
+}
+@-o-keyframes bubbleSidewaysA {
+    0% { left: 180px; }
+    100% { left: 32px; }
+}
 @keyframes bubbleSidewaysA {
-    0% {
-        left: 180px;
-    }
-    100% {
-        left: 32px;
-    }
+    0% { left: 180px; }
+    100% { left: 32px; }
 }
 
+@-webkit-keyframes bubbleSidewaysB {
+    0% { left: 106px; }
+    25% { left: 32px; }
+    75% { left: 180px; }
+    100% { left: 106px; }
+}
+@-moz-keyframes bubbleSidewaysB {
+    0% { left: 106px; }
+    25% { left: 32px; }
+    75% { left: 180px; }
+    100% { left: 106px; }
+}
+@-o-keyframes bubbleSidewaysB {
+    0% { left: 106px; }
+    25% { left: 32px; }
+    75% { left: 180px; }
+    100% { left: 106px; }
+}
 @keyframes bubbleSidewaysB {
-    0% {
-        left: 106px;
-    }
-    25% {
-        left: 32px;
-    }
-    75% {
-        left: 180px;
-    }
-    100% {
-        left: 106px;
-    }
+    0% { left: 106px; }
+    25% { left: 32px; }
+    75% { left: 180px; }
+    100% { left: 106px; }
 }
 
+@-webkit-keyframes bubbleUp768 {
+    0% { top: 182px; }
+    100% { top: -350px; }
+}
+@-moz-keyframes bubbleUp768 {
+    0% { top: 182px; }
+    100% { top: -350px; }
+}
+@-o-keyframes bubbleUp768 {
+    0% { top: 182px; }
+    100% { top: -350px; }
+}
 @keyframes bubbleUp768 {
-    0% {
-        top: 182px;
-    }
-    100% {
-        top: -350px;
-    }
+    0% { top: 182px; }
+    100% { top: -350px; }
 }
 
+@-webkit-keyframes bubbleSidewaysA768 {
+    0% { left: 250px; }
+    100% { left: 60px; }
+}
+@-moz-keyframes bubbleSidewaysA768 {
+    0% { left: 250px; }
+    100% { left: 60px; }
+}
+@-o-keyframes bubbleSidewaysA768 {
+    0% { left: 250px; }
+    100% { left: 60px; }
+}
 @keyframes bubbleSidewaysA768 {
-    0% {
-        left: 250px;
-    }
-    100% {
-        left: 60px;
-    }
+    0% { left: 250px; }
+    100% { left: 60px; }
 }
 
+@-webkit-keyframes bubbleSidewaysB768 {
+    0% { left: 110px; }
+    100% { left: 300px; }
+}
+@-moz-keyframes bubbleSidewaysB768 {
+    0% { left: 110px; }
+    100% { left: 300px; }
+}
+@-o-keyframes bubbleSidewaysB768 {
+    0% { left: 110px; }
+    100% { left: 300px; }
+}
 @keyframes bubbleSidewaysB768 {
-    0% {
-        left: 110px;
-    }
-    100% {
-        left: 300px;
-    }
+    0% { left: 110px; }
+    100% { left: 300px; }
 }
 
+@-webkit-keyframes bubbleUp1008 {
+    0% { top: 140px; }
+    100% { top: -350px; }
+}
+@-moz-keyframes bubbleUp1008 {
+    0% { top: 140px; }
+    100% { top: -350px; }
+}
+@-o-keyframes bubbleUp1008 {
+    0% { top: 140px; }
+    100% { top: -350px; }
+}
 @keyframes bubbleUp1008 {
-    0% {
-        top: 140px;
-    }
-    100% {
-        top: -350px;
-    }
+    0% { top: 140px; }
+    100% { top: -350px; }
 }
 
+@-webkit-keyframes bubbleSidewaysA1008 {
+    0% { left: 325px; }
+    100% { left: 150px; }
+}
+@-moz-keyframes bubbleSidewaysA1008 {
+    0% { left: 325px; }
+    100% { left: 150px; }
+}
+@-o-keyframes bubbleSidewaysA1008 {
+    0% { left: 325px; }
+    100% { left: 150px; }
+}
 @keyframes bubbleSidewaysA1008 {
-    0% {
-        left: 325px;
-    }
-    100% {
-        left: 150px;
-    }
+    0% { left: 325px; }
+    100% { left: 150px; }
 }
 
+@-webkit-keyframes bubbleSidewaysB1008 {
+    0% { left: 237px; }
+    25% { left: 150px }
+    75% { left: 325px; }
+    100% { left: 237px; }
+}
+@-moz-keyframes bubbleSidewaysB1008 {
+    0% { left: 237px; }
+    25% { left: 150px }
+    75% { left: 325px; }
+    100% { left: 237px; }
+}
+@-o-keyframes bubbleSidewaysB1008 {
+    0% { left: 237px; }
+    25% { left: 150px }
+    75% { left: 325px; }
+    100% { left: 237px; }
+}
 @keyframes bubbleSidewaysB1008 {
-    0% {
-        left: 237px;
-    }
-    25% {
-        left: 150px
-    }
-    75% {
-        left: 325px;
-    }
-    100% {
-        left: 237px;
-    }
+    0% { left: 237px; }
+    25% { left: 150px }
+    75% { left: 325px; }
+    100% { left: 237px; }
 }
